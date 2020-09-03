@@ -19,7 +19,7 @@ public class Operacoes {
     public void q1(){
         try {
             FileWriter fw;
-            fw=new FileWriter("D:\\temp\disciplinas.txt");
+            fw=new FileWriter("D:\\temp\\disciplinas.txt");
             fw.write("Linguagem de programação II");
             fw.close();
         } catch (Exception e) {
@@ -30,7 +30,7 @@ public class Operacoes {
     public void q2(){
         try {
             FileWriter fw;
-            fw=new FileWriter("D:\\temp\disciplinas.txt",true);
+            fw=new FileWriter("D:\\temp\\disciplinas.txt",true);
             fw.write("\n");
             fw.write("Empreendedorismo");
             fw.write("\r\n");
@@ -45,7 +45,7 @@ public class Operacoes {
     public void q3(){
         try {
             FileWriter fw;
-            fw=new FileWriter("D:\\temp\disciplinas1.txt");
+            fw=new FileWriter("D:\\temp\\disciplinas1.txt");
             fw.write("Lógica de Programação\n");
             fw.write("Introdução à Informática e Aplicativos\n");
             fw.write("Introdução à Manutenção de Computadores\n");
@@ -59,7 +59,7 @@ public class Operacoes {
     public void q4(){
         try {
                 FileWriter fw;
-                fw=new FileWriter("D:\\temp\disciplinas1.txt",true);
+                fw=new FileWriter("D:\\temp\\disciplinas1.txt",true);
                 for(int i=5;i<=20;i++){
                         fw.write(i+"\n");
                 }
@@ -73,7 +73,7 @@ public class Operacoes {
     public void q5(){
         try {
             FileReader fr;
-            fr = new FileReader("D:\\temp\disciplinas.txt");
+            fr = new FileReader("D:\\temp\\disciplinas.txt");
 
             BufferedReader bf;
             bf=new BufferedReader(fr);
@@ -91,7 +91,7 @@ public class Operacoes {
     public void q6(){
         try {
             FileReader fr;
-            fr = new FileReader("D:\\temp\disciplinas.txt");
+            fr = new FileReader("D:\\temp\\disciplinas.txt");
 
             BufferedReader bf;
             bf=new BufferedReader(fr);
@@ -111,7 +111,7 @@ public class Operacoes {
     public void q7(){
         try {
             FileReader fr;
-            fr = new FileReader("D:\\temp\disciplinas1.txt");
+            fr = new FileReader("D:\\temp\\disciplinas1.txt");
 
             BufferedReader bf;
             bf=new BufferedReader(fr);
@@ -129,7 +129,7 @@ public class Operacoes {
     public void q8(){
         try {
             FileWriter fw;
-            fw=new FileWriter("D:\\temp\pares.txt");
+            fw=new FileWriter("D:\\temp\\pares.txt");
             for(int i=0;i<50;i++){
                     fw.write((i*2)+"\n");
             }
@@ -143,7 +143,7 @@ public class Operacoes {
     public void q9(){
         try {
             FileReader fr;
-            fr = new FileReader("D:\\temp\pares.txt");
+            fr = new FileReader("D:\\temp\\pares.txt");
 
             BufferedReader bf;
             bf=new BufferedReader(fr);
@@ -164,7 +164,7 @@ public class Operacoes {
     public void q10(){ 
         try {
             FileReader fr;
-            fr = new FileReader("D:\\temp\pares.txt");
+            fr = new FileReader("D:\\temp\\pares.txt");
 
             BufferedReader bf;
             bf=new BufferedReader(fr);
