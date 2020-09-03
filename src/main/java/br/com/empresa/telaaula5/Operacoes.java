@@ -73,7 +73,7 @@ public class Operacoes {
     public void q5(){
         try {
             FileReader fr;
-            fr = new FileReader("disciplinas.txt");
+            fr = new FileReader("D:\\disciplinas.txt");
 
             BufferedReader bf;
             bf=new BufferedReader(fr);
@@ -91,7 +91,7 @@ public class Operacoes {
     public void q6(){
         try {
             FileReader fr;
-            fr = new FileReader("disciplinas.txt");
+            fr = new FileReader("D:\\disciplinas.txt");
 
             BufferedReader bf;
             bf=new BufferedReader(fr);
@@ -111,7 +111,7 @@ public class Operacoes {
     public void q7(){
         try {
             FileReader fr;
-            fr = new FileReader("disciplinas2.txt");
+            fr = new FileReader("D:\\disciplinas1.txt");
 
             BufferedReader bf;
             bf=new BufferedReader(fr);
